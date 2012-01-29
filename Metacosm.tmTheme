@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Metacosm</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>black</string>
+				<key>caret</key>
+				<string>white</string>
+				<key>lineHighlight</key>
+				<string>white</string>
+				<key>foreground</key>
+				<string>white</string>
+				<key>selection</key>
+				<string>yellow</string>
+				<key>selectionForeground</key>
+				<string>black</string>
+				<key>inactiveSelection</key>
+				<string>black</string>
+				<key>inactiveSelectionForeground</key>
+				<string>cyan</string>
+				<key>findHighlight</key>
+				<string>cyan</string>
+				<key>findHighlightForeground</key>
+				<string>black</string>
+				<key>invisibles</key>
+				<string>red</string>  
+				<key>bracketsForeground</key>
+				<string>orange</string>
+				<key>bracketContentsForeground</key>
+				<string>orange</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Constants (pink + grey background)</string>
+			<key>scope</key>
+			<string>string, string keyword, string keyword.other, constant.numeric, constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffa0a0</string>
+				<key>background</key>
+				<string>grey15</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Type (= green)</string>
+			<key>scope</key>
+			<string>storage, keyword.other, entity.other.attribute-name, keyword.operator.class, support.function.construct</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#60ff60</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Statement (= yellow)</string>
+			<key>scope</key>
+			<string>keyword, support.function.magic, entity.name.tag, punctuation.definition.variable, support.function.construct -meta</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffff60</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Identifier (= cyan)</string>
+			<key>scope</key>
+			<string>support.function, variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#40ffff</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>PreProc (= purple)</string>
+			<key>scope</key>
+			<string>storage.type.function, keyword.other.new, keyword.control.import</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff80ff</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Comments (= blue)</string>
+			<key>scope</key>
+			<string>comment, comment keyword, comment keyword.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#80a0ff</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Special (= orange)</string>
+			<key>scope</key>
+			<string>constant.character.escape, source.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>orange</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Normal (= white)</string>
+			<key>scope</key>
+			<string>support.constant, variable.other.property, constant.other, entity.name.function, meta.function-call, entity.name, support.class, entity.other.inherited-class, punctuation.terminator.expression, punctuation.definition.string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>white</string>
+			</dict>
+		</dict>
+
+	</array>
+</dict>
+</plist>
